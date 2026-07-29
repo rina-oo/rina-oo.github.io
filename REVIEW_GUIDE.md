@@ -12,6 +12,11 @@
    - GitHub repo가 있으면 README도 참고
 3. 아래 규격대로 리뷰 작성 → `_posts/YYYY-MM-DD-<arxiv_id>.md` 저장
 4. 커밋 메시지: `post: <arxiv_id> <논문 제목 요약> 리뷰` → push
+5. **노션 데이터베이스에 항목 추가** — "Daily Paper Reviews" DB (data source ID: `aea2861c-329d-43da-9003-2925f3b5e092`, Home 페이지 하위)에 다음 속성으로 1행 추가:
+   - `Title`: 논문 원제 / `Date`: 발행일 / `Source`: HF Daily Papers / `Upvotes` / `arXiv`
+   - `Category`: 기존 옵션(LLM, MoE, Vision, Multimodal, RL, Agent, Efficiency, Long-Context, Diffusion, Robotics)에서 해당하는 것 복수 선택
+   - `요약`: 2~3문장 핵심 요약 / `흐름`: 논문 전개 흐름 한 줄 / `Contribution`: 핵심 기여 ①②③ 형식 / `Limitation`: 한계 요약
+   - `Blog Link`: `https://rina-oo.github.io/posts/<arxiv_id>/`
 
 ## 파일 규격
 
