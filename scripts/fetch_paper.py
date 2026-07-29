@@ -151,6 +151,8 @@ def _clean_tex(s: str, macros: dict | None = None) -> str:
     s = re.sub(r"\\label\{[^}]*\}", "", s)
     s = re.sub(r"\\(?:textbf|textit|emph|uline|texttt)\{([^}]*)\}", r"\1", s)
     s = re.sub(r"\\protect\b", "", s)
+    s = re.sub(r"\\xspace\b", "", s)
+    s = re.sub(r"\{\}", "", s)  # 인자 없는 매크로를 펼치고 남은 빈 중괄호
     s = re.sub(r"~", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
