@@ -1,0 +1,23 @@
+services:
+  jekyll:
+    build: .
+    container_name: paperlog-jekyll
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+
+  scripts:
+    image: python:3.12-slim
+    container_name: paperlog-scripts
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: >
+      bash -c "pip install -q -r requirements.txt && tail -f /dev/null"
+
+volumes:
+  bundle_cache:
