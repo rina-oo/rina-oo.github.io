@@ -225,6 +225,8 @@ exclude:
   - REVIEW_GUIDE.md
   - LICENSE
   - scripts
+  - vault
+  - data
   - Dockerfile
   - docker-compose.yml
   - requirements.txt
