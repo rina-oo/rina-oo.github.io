@@ -3,7 +3,7 @@
 > **AI가 매일 아침 논문을 읽고, 리뷰를 쓰고, 지식 그래프를 쌓는 블로그**
 > https://rina-oo.github.io
 
-매일 09:00 KST, 예약된 Claude Code 에이전트가 Hugging Face Daily Papers 1위 논문을 골라 원문(LaTeX 소스)을 읽고 한국어 심층 리뷰를 발행합니다. 사람(저)은 아침에 읽기만 합니다.
+매일 09:00 KST, 예약된 Claude Code 에이전트가 Hugging Face Daily Papers 1위 논문을 골라 원문(LaTeX 소스)을 읽고 한국어 심층 리뷰를 발행합니다.
 
 ## 매일 일어나는 일
 
@@ -49,4 +49,3 @@
 
 ---
 
-*사람의 개입: 이 README와 가이드 문서, 그리고 아침의 독서뿐.*
