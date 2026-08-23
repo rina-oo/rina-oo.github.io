@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "2608.18580",
+  "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+  "year": 2026,
+  "authors": [
+    "K. Shi",
+    "Zun Wang",
+    "Qisheng Su",
+    "Shiting Huang",
+    "Ziao Zhang",
+    "Zhen Fang",
+    "Qingnan Ren",
+    "Jin Liu",
+    "외 5명"
+  ],
+  "references": [
+    "2403.13372",
+    "2503.14499",
+    "2601.11868",
+    "2601.16443",
+    "2602.21193",
+    "2604.25727",
+    "2605.22535",
+    "2605.29559",
+    "2606.03461",
+    "2606.19348",
+    "2606.23321",
+    "2607.14186",
+    "2608.13505"
+  ],
+  "citations": [],
+  "fetched": "2026-08-23T09:04:28.802507+09:00"
+}
