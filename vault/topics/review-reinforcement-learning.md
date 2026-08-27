@@ -14,3 +14,4 @@ added: '2026-08-04'
 - 2026-08-09 [[2608.05987|국지적 신호는 아직 credit이 아니다]] — 에이전틱 RL에서 turn 단위 credit을 "국지적 self-distillation gap"이 아니라 "그 gap이 누적 belief를 얼마나 revision했는가"로 재정의한 AgentOPSD를 리뷰한다. Bayes factor에서 출발해 재귀적 belief update, sign-aligned credit, bounded advantage reshaping까지 이어지는 설계를 뜯어본다.
 - 2026-08-22 [[2608.19880|환경을 다시 만들지 말고 감싸라]] — 환경을 처음부터 새로 만드는 대신 표준 인터페이스 위에 plug-in wrapper(Stage/Contract/Chain)를 씌워 에이전트의 약점을 겨냥해 재구성하는 EnvHarness와, 이를 자동화하는 진단 루프 EnvRigger를 제안한 논문. 다섯 개 벤치마크에서 원본 환경·도메인 특화 생성 파이프라인을 모두 앞서면서도, 검증기는 그대로 물려받는다는 게 핵심이다.
 - 2026-08-26 [[2608.23283|'완료된 작업'을 지능의 단위로 삼기]] — 에이전트의 지능을 "정답을 맞혔는가"가 아니라 "실행 가능한 환경에서 검증 가능한 작업을 완료했는가"로 재정의하고, Environment Scaling과 Agentic Coordination Scaling이라는 두 축으로 이를 학습·평가하는 Apodex 1.1 기술 보고서를 읽는다.
+- 2026-08-27 [[2608.15875|이해·예측·행동을 하나의 정책으로]] — 이해(System 2)·예측과 평가(System 3)·행동(System 1)을 하나의 배포 정책으로 묶고, 37,000시간이 넘는 이질적 로봇/인간 시연 데이터로 원스테이지 사전학습한 뒤 실제 배포 롤아웃으로 계속 강화학습시키는 GigaBrain-0.7 기술 보고서를 읽는다.
