@@ -1,0 +1,12 @@
+---
+title: '리뷰 허브: embodied-ai'
+type: topic
+topic: embodied-ai
+tags:
+- embodied-ai
+added: '2026-08-27'
+---
+# 리뷰 허브: embodied-ai
+
+일일 논문 리뷰 중 `embodied-ai` 태그가 붙은 논문들.
+- 2026-08-27 [[2608.15875|이해·예측·행동을 하나의 정책으로]] — 이해(System 2)·예측과 평가(System 3)·행동(System 1)을 하나의 배포 정책으로 묶고, 37,000시간이 넘는 이질적 로봇/인간 시연 데이터로 원스테이지 사전학습한 뒤 실제 배포 롤아웃으로 계속 강화학습시키는 GigaBrain-0.7 기술 보고서를 읽는다.
