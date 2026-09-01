@@ -46,12 +46,16 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: 12ITVc_DgL4_38EPPgquxphkCDIV_XsHzfKGKUXdo2Y
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
+
+# 네이버 서치어드바이저 인증 코드 (_includes/metadata-hook.html에서 사용)
+# https://searchadvisor.naver.com 에서 사이트 등록 후 메타 태그의 content 값을 입력
+naver_site_verification:
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -102,7 +106,7 @@ avatar:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /assets/img/social-preview.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
