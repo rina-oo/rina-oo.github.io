@@ -132,9 +132,14 @@ date: YYYY-MM-DD HH:MM:SS +0900
 categories: [논문리뷰, Daily-Paper]
 tags: [llm, moe, ...]     # 소문자 영문 3~6개
 math: true
+image:
+  path: /assets/img/posts/<arxiv_id>/대표그림.png   # 소셜 공유 og:image (필수)
+  alt: 그림 설명 한 문장
 description: 한 문장 요약
 ---
 ```
+
+> **`image`는 필수다.** 소셜 미리보기(og:image)와 목록 썸네일에 쓰인다. 논문의 대표 Figure(보통 Figure 1 또는 아키텍처 그림)를 지정하고, 그림을 하나도 확보하지 못한 회차만 사이트 기본 이미지 `/assets/img/social-preview.png`를 쓴다.
 
 > ⚠️ **`date`를 미래 시각으로 쓰면 안 된다.** Jekyll은 빌드 시점보다 미래인 포스트를 조용히 건너뛴다 — 빌드는 성공하는데 글만 안 올라가서 원인을 찾기 어렵다. `TZ=Asia/Seoul date`로 현재 시각을 확인하고 **그보다 과거**로 적는다.
 
