@@ -1,0 +1,12 @@
+---
+title: '리뷰 허브: on-policy-distillation'
+type: topic
+topic: on-policy-distillation
+tags:
+- on-policy-distillation
+added: '2026-09-02'
+---
+# 리뷰 허브: on-policy-distillation
+
+일일 논문 리뷰 중 `on-policy-distillation` 태그가 붙은 논문들.
+- 2026-09-02 [[2608.31046|교사가 없어도 되더라]] — On-Policy Distillation이 교사 지식을 정말 옮기고 있는지 뜯어봤더니, 교사 신호는 절반 가까이 틀렸고 그마저 없어도 학생 혼자 저확률 토큰을 억누르는 것만으로 거의 같은 성능이 나온다는 걸 보여준 뒤, 교사 없이 엔트로피만으로 그 억제를 대신하는 OPSA를 제안한 논문을 읽는다.
