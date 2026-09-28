@@ -1,13 +1,12 @@
 ---
-title: '리뷰 허브: efficiency'
+title: '리뷰 허브: interpretability'
 type: topic
-topic: efficiency
+topic: interpretability
 tags:
-- efficiency
-added: '2026-09-19'
+- interpretability
+added: '2026-09-28'
 ---
-# 리뷰 허브: efficiency
+# 리뷰 허브: interpretability
 
-일일 논문 리뷰 중 `efficiency` 태그가 붙은 논문들.
-- 2026-09-19 [[2609.19969|토큰당 KV 캐시 890바이트]] — 552B 파라미터 멀티모달 MoE 모델이면서 토큰당 글로벌 KV 캐시를 890바이트(DeepSeek-V4-Flash 대비 1/4)까지 줄인 DeepSeek-V4.1-Flash의 아키텍처와 성능을 읽는다.
+일일 논문 리뷰 중 `interpretability` 태그가 붙은 논문들.
 - 2026-09-28 [[2609.29845|트랜스포머는 정말로 두 가지 생각을 동시에 할 수 있을까]] — 두 문장의 임베딩을 반씩 섞어 트랜스포머에 넣으면 출력이 완전히 망가질 것 같지만, 실제로는 두 문장의 다음 토큰이 동시에 상위권에 살아남습니다. 이 "선형 중첩" 현상이 어디서 오고, 학습 중에 왜 사라지며, 어떻게 되살릴 수 있는지를 파헤친 논문을 읽습니다.

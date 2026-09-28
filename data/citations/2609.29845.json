@@ -1,0 +1,36 @@
+{
+  "arxiv_id": "2609.29845",
+  "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+  "year": 2026,
+  "authors": [
+    "Pavel Tikhonov",
+    "Anton Korznikov",
+    "Matvey Mikhalchuk",
+    "N. Dragunov",
+    "Temur Rahmatullaev",
+    "Polina Druzhinina",
+    "Anton Razzhigaev",
+    "I. Oseledets",
+    "외 1명"
+  ],
+  "references": [
+    "1606.06031",
+    "1706.03762",
+    "2202.09318",
+    "2304.01373",
+    "2305.07759",
+    "2312.02829",
+    "2402.00838",
+    "2404.06910",
+    "2405.12250",
+    "2405.18400",
+    "2406.17557",
+    "2407.21783",
+    "2408.00118",
+    "2410.04519",
+    "2410.05603",
+    "2505.09388"
+  ],
+  "citations": [],
+  "fetched": "2026-09-28T09:12:11.402561+09:00"
+}
