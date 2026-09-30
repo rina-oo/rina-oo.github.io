@@ -140,6 +140,10 @@ description: 한 문장 요약
 ```
 
 > **`image`는 필수다.** 소셜 미리보기(og:image)와 목록 썸네일에 쓰인다. 논문의 대표 Figure(보통 Figure 1 또는 아키텍처 그림)를 지정하고, 그림을 하나도 확보하지 못한 회차만 사이트 기본 이미지 `/assets/img/social-preview.png`를 쓴다.
+>
+> **front matter 값에 따옴표가 들어가면 반드시 큰따옴표로 감싼다.** `alt: '완료된 작업'을 ...` 처럼 작은따옴표로 시작하는 값을 그대로 쓰면 YAML 파싱이 깨진다. 깨지면 Jekyll이 front matter 전체를 버려서 **제목이 사라지고 글 주소(permalink)까지 바뀐다** — 빌드는 성공하므로 알아채기 어렵다. `alt: "'완료된 작업'을 ..."` 처럼 쓸 것. 제목에 콜론(`: `)이 있을 때도 동일하다.
+>
+> 발행 전 확인: `python3 -c "import glob,yaml;[yaml.safe_load(open(f,encoding='utf-8').read().split('---',2)[1]) for f in glob.glob('_posts/*.md')]"`
 
 > ⚠️ **`date`를 미래 시각으로 쓰면 안 된다.** Jekyll은 빌드 시점보다 미래인 포스트를 조용히 건너뛴다 — 빌드는 성공하는데 글만 안 올라가서 원인을 찾기 어렵다. `TZ=Asia/Seoul date`로 현재 시각을 확인하고 **그보다 과거**로 적는다.
 
