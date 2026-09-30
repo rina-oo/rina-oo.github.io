@@ -1,0 +1,12 @@
+---
+title: '리뷰 허브: subliminal-learning'
+type: topic
+topic: subliminal-learning
+tags:
+- subliminal-learning
+added: '2026-09-30'
+---
+# 리뷰 허브: subliminal-learning
+
+일일 논문 리뷰 중 `subliminal-learning` 태그가 붙은 논문들.
+- 2026-09-30 [[2609.29233|관련 없는 단어 선택 하나로 사후학습을 훔쳐본다]] — 코드나 수학과 전혀 상관없는 "잠옷과 티셔츠 중 뭐가 더 어울려?" 같은 질문의 답 한 단어만으로, 비공개 파인튜닝 모델의 능력 일부를 다른 모델로 옮길 수 있다는 것을 보인 논문입니다.
