@@ -12,3 +12,4 @@ added: '2026-08-17'
 - 2026-08-17 [[2608.13546|2시간을 끊김 없이]] — 디노이저 컨텍스트를 키우지 않고도 2시간 연속 생성을 지탱하는 Evoke를 리뷰한다. 장면 기하를 외부 world state bank로 빼내고, teacher를 chunk-wise sparse attention으로 재설계해 30초 장기 supervision을 3-step student에 distill한다.
 - 2026-09-06 [[2609.04199|매번 부르지 말고 한 번 구워라]] — 매 호출마다 큰 LLM을 부르는 대신, 자연어로 적은 함수 명세를 한 번 훈련시켜 0.6B짜리 로컬 어댑터로 구워버리는 "compile by training"을 실제 서비스로 배포한 논문을 읽는다.
 - 2026-09-10 [[2609.08183|라우팅 로그가 곧 훈련 데이터다]] — 실서비스 라우팅 하니스가 남기는 로그 자체가 재귀적 자기개선(RSI)에 필요한 경험과 피드백이라는 관찰에서 출발해, 라우팅 점수로 SFT 커리큘럼과 on-policy distillation을 짜고 평가 결과로 다음 학습 데이터를 다시 배분하는 NeoHorse-1 리포트를 읽는다.
+- 2026-10-02 [[2609.36484|모델이 아니라 방향을 베낀다]] — RL로 학습된 teacher를 on-policy distillation으로 베낄 때, teacher를 '도착점'이 아니라 '방향'으로 보자는 제안입니다. hidden state 공간에서 base→teacher residual을 teacher보다 더 멀리 extrapolate해서 학생에게 가르치면, 네 가지 base/teacher 조합 모두에서 student가 teacher를 능가합니다.
