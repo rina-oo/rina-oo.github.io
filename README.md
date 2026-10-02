@@ -17,7 +17,7 @@
      ├ 인용 엣지        Semantic Scholar로 vault 내부 논문 간 연결
      ├ vault/topics/   태그별 허브
      └ vault/syntheses/ 주간 종합 (일요일)
-  5. git push → GitHub Pages 자동 배포
+  5. main에 직접 git push (브랜치·PR 없음) → GitHub Pages 자동 배포
   6. Notion DB에 카탈로그 행 추가 (도움 여부 판정 포함)
 ```
 

@@ -22,8 +22,20 @@ python3 scripts/fetch_paper.py <arxiv_id> --out /tmp/paper
 
 3. 원문을 읽고 리뷰 작성 → `_posts/YYYY-MM-DD-<arxiv_id>.md`
 4. 그림을 `assets/img/posts/<arxiv_id>/`로 복사
-5. 커밋 `post: <arxiv_id> <제목 요약> 리뷰` → push
+5. 커밋 `post: <arxiv_id> <제목 요약> 리뷰` → **`main`에 직접 push**
 6. 노션 "Daily Paper Reviews" DB에 1행 추가 (§6)
+
+> 🚨 **브랜치를 만들지 말고 `main`에 직접 커밋·푸시한다. PR을 열지 않는다.**
+>
+> 1인 운영 블로그라 리뷰 단계가 필요 없고, 브랜치를 쓰면 **반드시 충돌이 난다.** 매 회차가 아래 공유 파일들을 같은 자리에 덧붙이기 때문이다:
+>
+> - `data/citations/pending.json`
+> - `vault/topics/review-<tag>.md`
+> - `vault/papers/<다른 논문 id>.md` (인용 엣지 추가)
+>
+> PR이 하루라도 병합되지 않으면 다음 날 회차가 `main`에서 새로 분기하면서 같은 줄을 건드려 충돌하고, 그 뒤로는 연쇄로 전부 막힌다. 실제로 2026-09-11 ~ 09-26 사이 PR 12건이 이렇게 쌓여 리뷰 8편이 2~3주간 발행되지 못했다.
+>
+> 푸시가 거부되면(그 사이 다른 커밋이 올라온 경우) `git pull --rebase` 후 다시 push 한다.
 
 ---
 
