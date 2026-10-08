@@ -15,3 +15,4 @@ added: '2026-08-17'
 - 2026-10-02 [[2609.36484|모델이 아니라 방향을 베낀다]] — RL로 학습된 teacher를 on-policy distillation으로 베낄 때, teacher를 '도착점'이 아니라 '방향'으로 보자는 제안입니다. hidden state 공간에서 base→teacher residual을 teacher보다 더 멀리 extrapolate해서 학생에게 가르치면, 네 가지 base/teacher 조합 모두에서 student가 teacher를 능가합니다.
 - 2026-09-24 [[2609.25804|정답률 59.7%]] — 에이전트가 긴 작업 중간에 내리는 판단, 즉 "안목(taste)"을 사람 손을 빌리지 않고 트라젝토리의 사후 결과에서 자동으로 뽑아내 측정하는 Taste-Bench를 읽는다. 최고 모델도 59.7%에 그치고, 추론 예산을 늘려도 안 되지만, 이 안목은 distillation으로 학습이 가능하다.
 - 2026-10-04 [[2609.35259|On-Policy가 항상 옳다는 믿음]] — RLVR이 SFT보다 forgetting이 적고 업데이트가 sparse하다는 주장의 숨은 전제, 'on-policy라서'가 진짜 원인인지를 distillation이라는 통제된 실험실에서 해부한 논문을 리뷰합니다. 결론은 '거의 아니다'입니다 — 범인은 대부분 KL 방향과 학습률이었습니다.
+- 2026-10-08 [[2610.08448|커버리지보다 신뢰도]] — 서로 다른 토크나이저를 쓰는 teacher-student 사이의 on-policy distillation에서, 정렬 범위(coverage)를 넓히려는 시도가 오히려 성능을 깎아먹는다는 것을 실험과 gradient 분석으로 보여준 논문을 리뷰합니다. 핵심은 '얼마나 많이 맞추느냐'가 아니라 '얼마나 믿을 만하게 맞추느냐'입니다.
