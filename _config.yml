@@ -154,7 +154,13 @@ assets:
 pwa:
   enabled: true # The option for PWA feature (installable)
   cache:
-    enabled: true # The option for PWA offline cache
+    # 오프라인 캐시는 끈다 (purge: true).
+    # Chirpy의 서비스워커는 cache-first라 홈(`/`)이 캐시에 박히면 네트워크를 아예
+    # 보지 않는다. 새 글이 올라가도 방문자는 "New content available" 알림의
+    # [Update]를 누르기 전까지 옛날 목록을 계속 보게 된다. 매일 발행하는
+    # 블로그에서는 재방문자가 어제 화면을 보는 치명적인 문제라 캐시를 끈다.
+    # 대가는 오프라인 읽기 불가 — 이 블로그에는 실익이 없다.
+    enabled: false # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
