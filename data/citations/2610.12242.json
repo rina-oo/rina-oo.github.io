@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2610.12242",
+  "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+  "year": 2026,
+  "authors": [
+    "Tianyu Fu",
+    "Teng-Xuan Liu",
+    "Ruo-Xin Wang",
+    "Yi-Xin Dong",
+    "Yi-Rou Ge",
+    "Yi-Chen You",
+    "Yu Wang"
+  ],
+  "references": [],
+  "citations": [],
+  "fetched": "2026-10-12T09:16:05.242484+09:00"
+}
