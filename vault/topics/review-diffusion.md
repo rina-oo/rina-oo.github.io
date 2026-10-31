@@ -18,3 +18,4 @@ added: '2026-08-05'
 - 2026-10-13 [[2610.12572|DiffusionNFT는 왜 불안정했나]] — diffusion/flow-matching 모델의 online RL 후처리에서, 효율적이지만 불안정했던 DiffusionNFT의 불안정 원인을 "forward-reverse consistency force"로 규명하고, 이를 설계로 제거한 DiffusionART를 리뷰합니다.
 - 2026-10-25 [[2610.24738|편집하면서 동시에 레이어로 쪼갠다]] — 중국 화남이공대·칭화대·JD.com 연구진이 공개한 LayerEditor는 이미지 편집과 RGBA 레이어 분해를 하나의 diffusion transformer로 묶어, 편집 결과를 재사용 가능한 레이어 스택으로 동시에 생성합니다.
 - 2026-10-26 [[2610.30926|MLLM 잠재표현이 생성 모델에 무시당하는 문제]] — HKUST와 Tencent Video 연구진이 제안한 FAPL은 MLLM이 만든 잠재표현을 비디오 생성 모델이 무시하고 우회하는 문제를 3단계 학습으로 해결해, 제한된 입력으로부터의 시간적 추론과 캐릭터·장면·행동·카메라별 선택적 제어를 모두 개선합니다.
+- 2026-10-31 [[2610.39633|분포를 통째로 맞출 수 없다면, 평균과 분산이라도]] — DMD 기반 few-step 이미지 생성 distillation에 생성기 EMA 특징의 평균·표준편차를 맞추는 명시적 모멘트 손실을 더한 Intrinsic Distribution Matching(IDM)을 리뷰합니다. reverse-KL field를 가우시안 성분과 잔차로 분해해 모멘트 매칭의 근거를 제시하고, Z-Image-Turbo·Qwen-Image에서 2 NFE 기준 LongText-Bench 최고 점수를 달성합니다.
