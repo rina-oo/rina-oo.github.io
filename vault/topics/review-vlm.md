@@ -16,3 +16,4 @@ added: '2026-08-21'
 - 2026-10-24 [[2610.31329|박스부터 투명한 머리카락까지, 한 모델로]] — Tencent WeChat Vision 팀이 공개한 WeVisOne-VL은 detection·referring·counting·OCR 같은 object-level 과제와 segmentation·matting 같은 pixel-level 과제를 하나의 VLM과 9.6M 파라미터짜리 경량 픽셀 디코더로 전부 처리합니다.
 - 2026-11-01 [[2610.36671|텍스트만으로 되는데 왜 매번 그림을 보나요]] — Diffusion VLM이 매 디코딩 스텝마다 이미지 토큰 전체를 다시 처리하는 비효율을 겨냥해, FULL forward와 TEXT-ONLY forward의 예측 일치 여부로 이미지 접근 여부와 언마스킹 개수를 동시에 결정하는 학습·임계값 없는 디코딩 기법 LOWN을 리뷰합니다. LLaDA-V 기준 10개 벤치마크에서 베이스라인 점수의 99.6%를 0.35배 FLOPs로 달성합니다.
 - 2026-11-07 [[2611.08449|토큰을 하나씩 검증하지 않고 통째로 받아들였더니 더 정확해졌다]] — 로봇·자율주행 VLM이 좌표를 한 토큰씩 순차 생성하는 비효율을, 프리미티브 하나를 통째로 예측하고 토큰 단위 검증 없이 그대로 받아들이는 VFlash로 해결한 논문을 리뷰합니다. 빨라졌을 뿐 아니라 오히려 더 정확해졌다는 점이 흥미롭습니다.
+- 2026-11-20 [[2611.24738|한 번의 forward pass로 그림을 그리다]] — diffusion도 autoregressive도 아닌 제3의 패러다임으로, frozen VLM 한 번의 forward pass만으로 512px 이미지를 78ms에 생성하는 Jeveration 논문을 읽고 정리했습니다.
