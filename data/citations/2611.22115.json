@@ -1,0 +1,35 @@
+{
+  "arxiv_id": "2611.22115",
+  "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+  "year": 2026,
+  "authors": [
+    "Xingchen Agi Lab Baotian Hu",
+    "Bing-Kai Yang",
+    "Bo-Yang Wang",
+    "Chang-Zai Pan",
+    "Chao Lyu",
+    "Chao Wang",
+    "Chen Li",
+    "Chen-Shuo Pan",
+    "외 132명"
+  ],
+  "references": [
+    "2304.11277",
+    "2402.18205",
+    "2405.04434",
+    "2502.16982",
+    "2507.18013",
+    "2509.01312",
+    "2511.19822",
+    "2602.06036",
+    "2602.15763",
+    "2604.14246",
+    "2606.19348",
+    "2609.21594",
+    "2610.29357"
+  ],
+  "citations": [
+    "2611.27193"
+  ],
+  "fetched": "2026-11-25T09:16:33.199377+09:00"
+}
